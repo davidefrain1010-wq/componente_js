@@ -179,7 +179,7 @@ El formulario de contacto utiliza los estilos del Ejercicio #9 del PDF, adaptado
 
 # Video demostrativo
 
-[text](https://drive.google.com/file/d/164iHJf1SxN8wfyIeEt6le1Oi1Kv_WxGt/view?usp=sharing)
+https://drive.google.com/file/d/164iHJf1SxN8wfyIeEt6le1Oi1Kv_WxGt/view?usp=sharing
 
 ---
 
