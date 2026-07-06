@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 3 - Componente-js</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/componente.css">
+    <script src="js/componente.js" defer></script>
+</head>
+
+<body>
+    <div style="text-align: center; margin-top: 80px;">
+        <img src="img/bienvenido.png" alt="Imagen de bienvenida" style="max-width:100%; border-radius:8px; margin-bottom:12px;" />
+        <h1>Breve demostración del componente modal</h1>
+        <p style="margin-bottom: 17px;">Pulsa en el botón de abajo para abrir el formulario de contacto.</p>
+        <button id="btnAbrirModal" class="boton-abrir">!Haz clic aquí! para abrir formulario de contacto</button>
+    </div>
+
+    <div id="formulario-oculto" style="display: none;">
+        <h1>Contáctanos ;P</h1>
+        <p class="subtítulo">¿Tienes dudas? Escríbenos y nosotros te responderemos :D</p>
+        <form class="formulario" id="form-contacto">
+            <div class="grupo-formulario">
+                <label for="nombre">Inserta tu nombre completo</label>
+                <input type="text" id="nombre" placeholder="Ej: David Gómez Barrios" required>
+            </div>
+            <div class="grupo-doble">
+                <div class="grupo-formulario">
+                    <label for="email">Inserta aquí tu dirección de correo electrónico</label>
+                    <input type="email" id="email" placeholder="Ej: davidbarrios123@gmail.com" required>
+                </div>
+                <div class="grupo-formulario">
+                    <label for="telefono">Inserta aquí tu número de teléfono <span>(opcional)</span></label>
+                    <input type="tel" id="telefono" placeholder="Ej: +52 951 123 4567">
+                </div>
+            </div>
+            <div class="grupo-formulario">
+                <label for="mensaje">Inserta aquí tu mensaje</label>
+                <textarea id="mensaje" rows="5" placeholder="Describe tu consulta..." required></textarea>
+            </div>
+            <button type="submit" class="boton-enviar">Enviar mensaje</button>
+        </form>
+    </div>
+</body>
+</html>
